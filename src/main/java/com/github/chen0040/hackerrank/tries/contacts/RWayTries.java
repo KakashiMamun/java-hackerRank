@@ -24,15 +24,16 @@ public class RWayTries {
 
       private Node _put(Node x, String key, int d) {
 
-         char c = key.charAt(d);
+
          if(x == null) {
             x = new Node();
          }
-         if(d == key.length() - 1) {
+         if(d == key.length()) {
             x.bit = true;
             return x;
          }
 
+         char c = key.charAt(d);
          x.nodes.put(c, _put(x.nodes.getOrDefault(c, null), key, d+1));
          return x;
       }

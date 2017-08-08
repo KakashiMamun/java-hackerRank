@@ -14,11 +14,11 @@ public class Solution {
 
 
    public static void main(String[] args) {
-      InputStream fin = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/input01.txt");
-      InputStream fout = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/output01.txt");
+      InputStream fin = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/input03.txt");
+      InputStream fout = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/output03.txt");
       Scanner out = new Scanner(fout);
       Scanner in = new Scanner(fin);
-      RWayTries trie = new RWayTries();
+      TernaryTries trie = new TernaryTries();
       int n = in.nextInt();
       for(int a0 = 0; a0 < n; a0++){
          String op = in.next();
