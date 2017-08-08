@@ -29,9 +29,6 @@ public class TernaryTries {
 
       private Node _put(Node x, String key, int d) {
 
-         if(d == key.length()){
-            return x;
-         }
 
          char c = key.charAt(d);
          if(x == null) {
@@ -45,8 +42,9 @@ public class TernaryTries {
          } else {
             if(d == key.length()-1) {
                x.value = true;
+            } else {
+               x.mid = _put(x.mid, key, d + 1);
             }
-            x.mid = _put(x.mid, key, d+1);
          }
 
          return x;
@@ -56,7 +54,7 @@ public class TernaryTries {
       public int count(String prefix) {
          Node x = _get(root, prefix, 0);
          if(x == null) return 0;
-         return _count(x);
+         return (x.value ? 1 : 0) + _count(x.mid);
       }
 
       private Node _get(Node x, String prefix, int d) {

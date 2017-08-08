@@ -14,8 +14,8 @@ public class Solution {
 
 
    public static void main(String[] args) {
-      InputStream fin = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/input03.txt");
-      InputStream fout = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/output03.txt");
+      InputStream fin = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/input01.txt");
+      InputStream fout = Solution.class.getClassLoader().getResourceAsStream("tries/contacts/output01.txt");
       Scanner out = new Scanner(fout);
       Scanner in = new Scanner(fin);
       TernaryTries trie = new TernaryTries();
@@ -29,7 +29,7 @@ public class Solution {
             int expected = trie.count(contact);
             int ans = out.nextInt();
             if(expected != ans) {
-               System.out.println("wrong ans: " + expected + " != " + ans);
+               System.out.println("wrong ans: " + expected + " != " + ans +" given " + contact);
                break;
             } else {
                System.out.println(expected);
