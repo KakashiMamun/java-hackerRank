@@ -49,3 +49,7 @@ solutions to HackerRank
 ### BFS
 
 * [BFS: Shortest Reach in a Graph](https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem)
+
+### Binary Search
+
+* [Binary Search: Ice Cream Parlor](https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem)
