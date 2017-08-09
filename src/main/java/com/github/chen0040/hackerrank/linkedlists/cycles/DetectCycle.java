@@ -3,6 +3,8 @@ package com.github.chen0040.hackerrank.linkedlists.cycles;
 
 /**
  * Created by xschen on 9/8/2017.
+ *
+ * link: https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem
  */
 public class DetectCycle {
    class Node {

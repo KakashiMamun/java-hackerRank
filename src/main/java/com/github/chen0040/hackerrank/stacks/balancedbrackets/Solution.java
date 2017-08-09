@@ -1,14 +1,13 @@
-package com.github.chen0040.hackerrank.brackets.balancedbrackets;
+package com.github.chen0040.hackerrank.stacks.balancedbrackets;
 
 
 /**
  * Created by xschen on 8/8/2017.
+ *
+ * link: https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem
  */
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
 
 public class Solution {
 

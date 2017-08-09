@@ -3,6 +3,22 @@ solutions to HackerRank
 
 # Interview 
 
+### Linked List
+
+* [Linked List: Detect Cycles](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem)
+
+### Stack
+
+* [Stacks: Balanced Brackets](https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem)
+
+### Queue
+
+* [Queues: A Tale of Two Stacks](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem)
+
+### Tree
+
+* [Trees: Is This a BST?](https://www.hackerrank.com/challenges/ctci-is-binary-search-tree/problem)
+
 ### Array
 
 * [Arrays: Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)

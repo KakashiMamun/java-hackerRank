@@ -3,6 +3,8 @@ package com.github.chen0040.hackerrank.queues.twostacks;
 
 /**
  * Created by xschen on 9/8/2017.
+ *
+ * link: https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem
  */
 import java.io.*;
 import java.util.*;
