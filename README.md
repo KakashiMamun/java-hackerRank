@@ -1,7 +1,7 @@
 # java-hackerRank
 solutions to HackerRank
 
-# Interview 
+# Interview - Data Structures 
 
 ### Linked List
 
@@ -30,6 +30,17 @@ solutions to HackerRank
 ### String
 
 * [Strings: Making Anagram](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem)
+
+### Tries
+
+* [Tries: Search Contacts](https://www.hackerrank.com/challenges/ctci-contacts/problem)
+
+# Interview - Algorithms
+
+### Sort
+
+* [Bubble Sort](https://www.hackerrank.com/challenges/ctci-bubble-sort/problem)
+* [Sorting: Comparator](https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem)
 
 ### DFS 
 
