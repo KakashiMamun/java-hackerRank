@@ -41,6 +41,10 @@ solutions to HackerRank
 
 * [Time Complexity: Primality](https://www.hackerrank.com/challenges/ctci-big-o/problem)
 
+### Bit 
+
+* [Bit Manipulation: Lonely Integer](https://www.hackerrank.com/challenges/ctci-lonely-integer/problem)
+
 # Interview - Algorithms
 
 ### Sort
