@@ -35,6 +35,12 @@ solutions to HackerRank
 
 * [Tries: Search Contacts](https://www.hackerrank.com/challenges/ctci-contacts/problem)
 
+# Interview - Math
+
+### Prime
+
+* [Time Complexity: Primality](https://www.hackerrank.com/challenges/ctci-big-o/problem)
+
 # Interview - Algorithms
 
 ### Sort
